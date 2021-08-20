@@ -1,0 +1,16 @@
+# Sistema de Cadastro de Clientes
+
+* CRUD básico
+
+## O que foi usado?
+
+- HTML + CSS + PHP + MYSQL
+
+- Visual Studio Code, XAMPP
+
+
+
+## Print da tela inicial do projeto
+
+
+

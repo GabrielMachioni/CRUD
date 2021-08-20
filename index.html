@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cadastro de Clientes</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="content">
+      <h1 class="titulo">Cadastro de Usuário</h1>
+      <div class="divider"></div>
+      <div class="forms">
+        <form method="POST" action="cadastro.php">
+          <label>Nome: </label>
+          <input class="inputs" type="text" name="nome" placeholder="Nome completo" />
+          <br />
+          <br />
+          <label>Endereço: </label>
+          <input class="inputs" type="text" name="endereco" placeholder="Seu endereço" />
+          <br />
+          <br />
+          <label>Telefone: </label>
+          <input class="inputs" type="text" name="telefone" placeholder="Digite o telefone" />
+          <br />
+          <br />
+          <label>E-mail: </label>
+          <input class="inputs" type="email" name="email" placeholder="Digite o e-mail" />
+          <br />
+          <br />
+          <label>Data de Nascimento: </label>
+          <input class="inputs"
+            type="date"
+            name="data_nascimento"
+            placeholder="Data de nascimento"
+          />
+          <br />
+          <br />
+          <div class="botao_cadastrar"><input class="btn_input" type="submit" value="Cadastrar" /></div>
+           
+          
+        </form>
+      </div>
+    </div>
+    
+    <div class="content-2">
+      <div class="btn-2">
+        <button class="botao_pesquisar">
+          <a  href="pesquisa.php">Pesquisar cadastrados</a>
+        </button>
+      </div>
+    </div>
+  </body>
+</html>

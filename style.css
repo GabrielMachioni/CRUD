@@ -1,0 +1,264 @@
+/*RESET*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/*BODY*/
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: rgb(30, 30, 40);
+  width: 100%;
+}
+
+/*utilitários*/
+.divider {
+  width: 95%;
+  margin: auto;
+  border: 1px solid rgba(128, 128, 128, 0.678);
+}
+
+.inputs {
+  width: 100%;
+  height: 28px;
+}
+
+/*index-html*/
+.content {
+  background-color: #141414;
+  color: rgba(240, 248, 255, 0.9);
+  padding: 15px;
+  width: 375px;
+  height: 520px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.3);
+}
+
+.titulo {
+  font-size: 32px;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.forms {
+  margin-top: 25px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.botao_cadastrar {
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  width: fit-content;
+  margin-bottom: 5px;
+}
+
+.btn_input {
+  background-color: rgba(95, 173, 137, 0.5);
+  color: white;
+  border: none;
+  padding: 5px 15px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: 0.3s ease all;
+}
+.btn_input:hover {
+  background-color: rgb(24, 53, 39);
+}
+
+.content-2 {
+  background-color: #141414;
+  color: rgba(240, 248, 255, 0.9);
+  padding: 15px;
+  width: 375px;
+  height: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.3);
+}
+.btn-2 {
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  width: fit-content;
+  margin-bottom: 5px;
+}
+
+.botao_pesquisar {
+  background-color: rgba(146, 133, 77, 0.5);
+  text-decoration: none;
+  border: none;
+  padding: 5px 15px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: 0.1s ease all;
+}
+
+.botao_pesquisar:hover {
+  background-color: rgba(73, 66, 32, 0.699);
+}
+
+.botao_pesquisar a {
+  text-decoration: none;
+  color: white;
+}
+
+/*--------------------------------------------------------------------------*/
+/*CADASTRO - PHP*/
+
+.box-aviso{
+  width: fit-content;
+  border: 1px solid green;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  padding: 10px;
+  text-align: center;
+}
+
+.aviso {
+  color: green;
+  font-size: 28px;
+}
+
+.box-aviso-2{
+  width: fit-content;
+  border: 1px solid red;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  padding: 10px;
+  text-align: center;
+}
+
+.aviso-2 {
+  color: red;
+  font-size: 28px;
+}
+
+.botao_voltar {
+  background-color: rgba(146, 133, 77, 0.5);
+  color: white;
+  border: none;
+  padding: 5px 15px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: 0.1s ease all;
+  margin-top: 30px;
+}
+
+.botao_voltar:hover {
+  background-color: rgba(73, 66, 32, 0.699);
+}
+
+.botao_voltar a{
+  text-decoration: none;
+  color: white;
+}
+
+/*-----------------------------------------------------*/
+/*pesquisar*/
+
+.content-pesquisar{
+  background-color: #141414;
+  color: rgba(240, 248, 255, 0.9);
+  padding: 15px;
+  width: 95%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.3);
+}
+
+.titulo-pesquisar{
+  font-size: 32px;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.input-pesquisar{
+  width: 250px;
+  height: 28px;
+  margin-left: 3%;
+  margin-top: 15px;
+}
+
+.btn-pesquisar{
+  background-color: white;
+  border: none;
+  color: black;
+  font-weight: bold;
+  padding: 5px;
+  height: 25px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.btn-pesquisar:hover{
+  background-color: rgba(216, 208, 208, 0.801);
+}
+
+.table{
+  width: 98%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 16px;
+  padding: 10px;
+  border: gray;
+}
+
+.space-content {
+  padding: 10px;
+}
+
+.space-content-2 {
+  padding: 5px;
+}
+
+.btn_excluir {
+  background-color: rgb(231, 59, 59);
+  width: 95%;
+  height: 25px;
+  border: none;
+}
+
+.btn_excluir:hover{
+  background-color: rgb(201, 24, 24);
+}
+
+.btn_excluir a{
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+
+/*Responsivo para celulares*/
+@media only screen and (max-width: 600px) {
+  body {
+    width: 100%;
+  }
+
+  .titulo {
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 5px;
+  }
+
+  /*index-html*/
+  .content {
+    width: 90%;
+    height: 530px;
+  }
+
+  .content-2 {
+    width: 90%;
+    margin-bottom: 20px;
+  }
+}
